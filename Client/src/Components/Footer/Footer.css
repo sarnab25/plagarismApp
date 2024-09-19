@@ -1,0 +1,61 @@
+.footer-container{
+    width: 100vw;
+    height: 5rem;
+    background-color:rgba(146, 141, 141, 0.753);
+    overflow: hidden;
+    display: flex;
+    color: black;
+    z-index: 500;
+    border-top: 1px solid white;
+    justify-content: space-evenly;
+}
+
+.e-mail
+{
+    padding-top: 1rem;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+p{
+    display: inline-block;
+    padding-left: 2rem;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+@media(min-width:1000px) and (max-width:1500px)
+{
+    .e-mail{
+      font-size: large;
+    }
+    
+    p
+    {
+        font-size: large; 
+    }
+}
+
+@media(min-width:700px) and (max-width:1000px)
+{
+    .e-mail{
+       font-size: medium;
+    }
+
+    p
+    {
+        font-size: medium; 
+    }
+}
+
+@media(min-width:300px) and (max-width:700px)
+{
+    .e-mail{
+        font-size: small;
+    }
+
+    p
+    {
+        font-size: small; 
+    }
+}
