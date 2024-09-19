@@ -22,7 +22,7 @@ const [percentage, setpercentage]=useState(null)
     formData.append('filetoUpload',file)
    
     try {
-      const response =await axios.post("http://localhost:5050/plagarism/check",formData,{ headers: {
+      const response =await axios.post("https://plagarismapp.onrender.com/plagarism/check",formData,{ headers: {
         'Content-Type': 'multipart/form-data',
       },})
       console.log(response)
